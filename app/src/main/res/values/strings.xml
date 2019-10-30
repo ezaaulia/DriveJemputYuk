@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Driver JemputYuk</string>
+    <string name="to_do">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login</string>
+    <string name="menu1">Cek Poin</string>
+    <string name="menu2">Validasi Order</string>
+    <string name="menu3">Notifikasi</string>
+    <string name="menu4">Pengingat</string>
+    <string name="menu5">Akun Saya</string>
+    <string name="menu6">Bantuan</string>
+
+    <string name="action_sign_in_short">login</string>
+    <string name="todologo">TODO</string>
+
+    <string name="jlhpoin">Jumlah Poin : 100</string>
+    <string name="topup">Top Up</string>
+    <string name="poin1">50 POIN</string>
+    <string name="harga1">Rp.55.000</string>
+    <string name="poin2">100 POIN</string>
+    <string name="harga2">Rp.105.000</string>
+    <string name="poin3">150 POIN</string>
+    <string name="harga3">Rp.154.000</string>
+    <string name="poin4">250 POIN</string>
+    <string name="harga4">Rp.253.000</string>
+    <string name="poin5">300 POIN</string>
+    <string name="harga5">Rp.302.000</string>
+    <string name="poin6">500 POIN</string>
+    <string name="harga6">Rp502.000</string>
+    <string name="bank1">Bank 1</string>
+    <string name="bank2">Bank 2</string>
+    <string name="bank3">Bank 3</string>
+    <string name="tf_bank1">Transfer Bank 1</string>
+    <string name="novir_bank1">Nomor Akun Virtual Bank 1</string>
+    <string name="nmrvir1">5467 2495 2335 232</string>
+    <string name="copy1">Salin Kode</string>
+    <string name="tf_bank2">Transfer Bank 2</string>
+    <string name="novir_bank2">Nomor Akun Virtual Bank 2</string>
+    <string name="nmrvir2">8675 2354 0796 435</string>
+    <string name="copy2">Salin Kode</string>
+    <string name="tf_bank3">Transfer Bank 3</string>
+    <string name="novir_bank3">Nomor Akun Virtual Bank 3</string>
+    <string name="nmrvir3">9676 3484 5948 544</string>
+    <string name="copy3">Salin Kode</string>
+
+    <string name="btn_validasi1">Nama Anak : Udin\nAlamat Rumah : Jl. Prof.M.Yamin Gg.Sekadim No.7</string>
+    <string name="btn_validasi2">Nama Anak : Harvian\nAlamat Rumah : Jl. Parit H. Husein II Komp. Bali Mas 1</string>
+    <string name="btn_validasi3">Nama Anak : Ali Fahima\nAlamat : Jl. Purnama No.89</string>
+    <string name="btn_validasi4">Nama Anak : Aufar Farabi\nAlamat Rumah : Jl. M. Saad Ain Gg. H. Taha No.13</string>
+    <string name="btn_validasi5">Nama Anak : Tsabit Arafat\nAlamat Rumah : Jl. Ampera Gg.Pak Majid 5 No.4</string>
+    <string name="todo_imganak1">TODO</string>
+    <string name="validasi1">\nNama Anak : Udin\nAlamat Rumah : Jl. Prof.M.Yamin Gg.Sekadim No.7\nAlamat Tujuan : SD Negeri 16\nLama Boking : 1 Hari\nTanggal Boking : 23 November 2019\n</string>
+    <string name="btn_chat1">Chat</string>
+    <string name="btn_selesai1">Selesai</string>
+    <string name="todo_imganak2">TODO</string>
+    <string name="validasi2">\nNama Anak: Harvian\nAlamat Rumah : Jl. Parit H. Husein II Komp. Bali Mas 1\nAlamat Tujuan : SMP Muhammadiyah 2\nLama Boking : 3 Hari\nTanggal Boking : 25 November 2019 s/d 27 November 2019\n</string>
+    <string name="btn_chat2">Chat</string>
+    <string name="btn_selesai2">Selesai</string>
+    <string name="todo_imganak3">TODO</string>
+    <string name="validasi3">\nNama Anak : Ali Fahima\nAlamat Rumah : Jl. Purnama No.89\nAlamat Tujuan : SD Muhammadiyah 1\nLama Boking : 5 Hari\nTanggal Boking : 1 Desember 2019 s/d 5 Desember 2019\n</string>
+    <string name="btn_chat3">Chat</string>
+    <string name="btn_selesai3">Selesai</string>
+    <string name="todo_imganak4">TODO</string>
+    <string name="validasi4">\nNama Anak : Aufar Farabi\nAlamat Rumah : Jl. M. Saad Ain Gg. H. Taha No.13\nAlamat Tujuan : SMA PGRI\nLama Boking : 2 Hari\nTanggal Boking : 9 Desember 2019 s/d 10 Desember 2019\n</string>
+    <string name="btn_chat4">Chat</string>
+    <string name="btn_selesai4">Selesai</string>
+    <string name="todo_imganak5">TODO</string>
+    <string name="validasi5">\nNama Anak : Tsabit Arafat\nAlamat Rumah : Jl. Ampera Gg.Pak Majid 5 No.4\nAlamat Tujuan : SD Negeri 34\nLama Boking : 1 Hari\nTanggal Boking : 14 Desember 2019\n</string>
+    <string name="btn_chat5">Chat</string>
+    <string name="btn_selesai5">Selesai</string>
+
+    <string name="btn_notifikasi1">Ini yang kamu tunggu, Kuy lihat! \n Nama anak: Udin</string>
+    <string name="btn_notifikasi2">Ini yang kamu tunggu, Kuy lihat! \n Nama anak: Harvian</string>
+    <string name="btn_notifikasi3">Ini yang kamu tunggu, Kuy lihat! \n Nama anak: Ali Fahima</string>
+    <string name="btn_notifikasi4">Ini yang kamu tunggu, Kuy lihat! \n Nama anak: Aufar Farabi</string>
+    <string name="btn_notifikasi5">Ini yang kamu tunggu, Kuy lihat! \n Nama anak: Tsabit Arafat</string>
+    <string name="todo_imganakN1">TODO</string>
+    <string name="notifikasi1">\nNama Anak : Udin\nAlamat Rumah : Jl. Prof M. Yamin Gg. Sekadim No.7\nAlamat Tujuan : SD Negeri 16\nLama Boking : 1 Hari\nTanggal Boking: 23 November 2019\nJasa : Antar\nWaktu : 06.00 WIB\nJumlah Anak : 1\n</string>
+    <string name="btn_tolak1">Tolak</string>
+    <string name="btn_terima1">Terima</string>
+    <string name="todo_imganakN2">TODO</string>
+    <string name="notifikasi2">\nNama Anak : Harvian\nAlamat Rumah : Jl. Parit H. Husein II Komp. Bali Mas 1\nAlamat Tujuan : SMP Muhammadiyah 2\nLama Boking : 3 Hari\nTanggal Boking: 25 November 2019s/d 27 November 2019\nJasa : Antar Jemput\nWaktu : 06.15 WIB\nJumlah Anak : 1\n</string>
+    <string name="btn_tolak2">Tolak</string>
+    <string name="btn_terima2">Terima</string>
+    <string name="todo_imganakN3">TODO</string>
+    <string name="notifikasi3">\nNama Anak : Ali Fahima\nAlamat Rumah : Jl. Purnama No.89\nAlamat Tujuan : SD Muhammadiyah 1\nLama Boking : 5 Hari\nTanggal Boking: 1 Desember 2019 s/d 5 Desember 2019\nJasa : Jemput\nWaktu : 13.00 WIB\nJumlah Anak : 1\n</string>
+    <string name="btn_tolak3">Tolak</string>
+    <string name="btn_terima3">Terima</string>
+    <string name="todo_imganakN4">TODO</string>
+    <string name="notifikasi4">\nNama Anak : Aufar Farabi\nAlamat Rumah : Jl. M. Saad Ain Gg. H. Taha No.13\nAlamat Tujuan : SMA PGRI\nLama Boking : 2 Hari\nTanggal Boking: 9 Desember 2019 s/d 10 Desember 2019\nJasa : Antar Jemput\nWaktu : 05.45 WIB\nJumlah Anak : 1\n</string>
+    <string name="btn_tolak4">Tolak</string>
+    <string name="btn_terima4">Terima</string>
+    <string name="todo_imganakN5">TODO</string>
+    <string name="notifikasi5">\nNama Anak : Tsabit Arafat\nAlamat Rumah : Jl. Ampera Gg.Pak Majid 5 No.4\nAlamat Tujuan : SD Negeri 34\nLama Boking : 1 Hari\nTanggal Boking: 14 Desember 2019\nJasa : Antar Jemput\nWaktu : 06.10 WIB\nJumlah Anak : 2\n</string>
+    <string name="btn_tolak5">Tolak</string>
+    <string name="btn_terima5">Terima</string>
+
+    <string name="todo_ppdriver">TODO</string>
+    <string name="reynan_syahputra">Reynan Syahputra</string>
+    <string name="layanan">Layanan</string>
+    <string name="pilihL">Harian</string>
+    <string name="kendaraan">Kendaraan</string>
+    <string name="jnsK">Motor</string>
+    <string name="todo_gmail">TODO</string>
+    <string name="gmail">reynansyah@gmail.com</string>
+    <string name="todo_nohpD">TODO</string>
+    <string name="no_hp">085743538989</string>
+    <string name="todo_alamat">TODO</string>
+    <string name="alamat">Jl. Alianyang Gg.Balai Desa No.10</string>
+    <string name="todo_kb">TODO</string>
+    <string name="kb">KB 4321 GR</string>
+    <string name="todo_warna">TODO</string>
+    <string name="warna">Hitam</string>
+
+    <string name="ketentuan_layanan">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n</string>
+    <string name="ketentuan">Ketentuan Layanan</string>
+    <string name="cara_transfer">Cara Transfer</string>
+    <string name="ktntuan">Ketentuan Layanan</string>
+    <string name="caratf">Cara Transfer</string>
+    <string name="tf_atm">Transfer ATM</string>
+    <string name="transfer_atm">
+    \n\t1. Masukkan Kartu ATM ke Slot Kartu di Mesin ATM\n
+    2. Pilih Bahasa\n
+    3. Masukkan Nomor PIN ATM Anda\n
+    4. Pilih Jenis Transaksi: Pilih “Transfer”\n
+    5. Pilih Bank Tujuan Transfer\n
+    6. Masukkan Nominal Uang\n
+    7. Masukkan Nomor Referensi\n
+    8. Konfirmasi Ulang\n
+    9. Transfer Berhasil\n
+    10. Transaksi Selesai\n</string>
+    <string name="tf_mbanking">Transfer m-Banking</string>
+    <string name="cara_mbanking">
+    \n\t1. Pilih menu “m-Banking” di ponsel Anda\n
+    2. Pilih menu “m-Transfer”\n
+    3. Pilih “Antar Rekening”\n
+    4. Masukkan Jumlah Uang yang akan ditransfer\n
+    5. Masukkan No. Rekening Tujuan yang akan ditransfer\n
+    6. Masukkan PIN m-Banking Anda\n
+    7. Anda akan menerima message yang berisi informasi transaksi transfer Anda Berhasil atau Gagal\n
+    </string>
+
+
+</resources>

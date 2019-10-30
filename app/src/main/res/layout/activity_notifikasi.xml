@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotifikasiActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_notif1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="buttonNotifikasi1"
+                    tools:ignore="OnClick"
+                    android:text="@string/btn_notifikasi1"
+                    android:textStyle="normal"/>
+
+                <Button
+                    android:id="@+id/btn_notif2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="95dp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="buttonNotifikasi2"
+                    tools:ignore="OnClick"
+                    android:text="@string/btn_notifikasi2"
+                    android:textStyle="normal"/>
+
+                <Button
+                    android:id="@+id/btn_notif3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="165dp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="buttonNotifikasi3"
+                    tools:ignore="OnClick"
+                    android:text="@string/btn_notifikasi3"
+                    android:textStyle="normal"/>
+
+                <Button
+                    android:id="@+id/btn_notif4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="235dp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/btn_notifikasi4"
+                    android:textStyle="normal"
+                    android:onClick="buttonNotifikasi4"
+                    tools:ignore="OnClick"/>
+
+                <Button
+                    android:id="@+id/btn_notif5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_marginTop="305dp"
+                    android:textColor="#FFFFFF"
+                    android:onClick="buttonNotifikasi5"
+                    tools:ignore="OnClick"
+                    android:text="@string/btn_notifikasi5"
+                    android:textStyle="normal"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.drive_jemputyuk">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".NoVirtual3Activity" />
+        <activity android:name=".NoVirtual2Activity" />
+        <activity android:name=".CaraTransferActivity" />
+        <activity android:name=".KetentuanActivity" />
+        <activity android:name=".BantuanActivity" />
+        <activity android:name=".AkunSayaActivity" />
+        <activity android:name=".PengingatActivity" />
+        <activity android:name=".PilihNotif5Activity" />
+        <activity android:name=".PilihNotif4Activity" />
+        <activity android:name=".PilihNotif3Activity" />
+        <activity android:name=".PilihNotif2Activity" />
+        <activity android:name=".PilihNotif1Activity" />
+        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".PilihValidasi5Activity" />
+        <activity android:name=".PilihValidasi4Activity" />
+        <activity android:name=".PilihValidasi3Activity" />
+        <activity android:name=".PilihValidasi2Activity" />
+        <activity android:name=".PilihValidasi1Activity" />
+        <activity android:name=".ValidasiAwalActivity" />
+        <activity android:name=".NoVirtual1Activity" />
+        <activity android:name=".PilihBankActivity" />
+        <activity android:name=".CekPoinActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

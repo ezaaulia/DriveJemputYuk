@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PilihValidasi1Activity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="30dp"
+                android:background="@color/blue">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/foto_anak1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="@string/todo_imganak1"
+                    android:src="@drawable/fotoanak1" />
+
+            </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_bio_anak1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineHeight="25sp"
+                    android:text="@string/validasi1"
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    tools:ignore="RtlSymmetry"
+                    tools:targetApi="p" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="180dp">
+
+                    <Button
+                        android:id="@+id/btn_chat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_chat1"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/rounded_corner"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:onClick="buttonChat1"
+                        tools:ignore="ButtonStyle,OnClick"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/btn_selesai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_selesai1"
+                        android:background="@drawable/rounded_corner"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:onClick="buttonSelesai"
+                        tools:ignore="ButtonStyle,OnClick"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

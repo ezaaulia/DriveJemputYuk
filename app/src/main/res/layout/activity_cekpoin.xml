@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CekPoinActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_jlhpoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="35dp"
+                    android:text="@string/jlhpoin"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:visibility="visible"
+                    android:layout_height="2dp"
+                    android:background="@color/blue"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="85dp"/>
+                <TextView
+                    android:id="@+id/tv_topup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:background="@color/blue"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/topup"/>
+
+                <GridLayout
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:orientation="vertical">
+
+                    <!-- Row 1 -->
+
+                    <!-- Column 1 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="200dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonPoin1"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin1"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin50"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga1"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!-- Column 2 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonPoin2"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin100"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin2"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin100"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga2"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Row 2 -->
+
+                    <!-- Column 1 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonPoin3"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin150"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin3"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin150"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga3"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Column 2 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="200dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonBPoin4"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin250"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin4"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin250"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga4"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Row 3 -->
+
+                    <!-- Column 1 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonPoin5"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin300"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin5"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin300"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga5"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Column 2 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_margin="12dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="16dp"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="buttonPoin6"
+                            tools:ignore="OnClick">
+
+                            <TextView
+                                android:id="@+id/tv_pilihanpoin500"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poin6"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_hargapoin500"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/harga6"
+                                android:textAlignment="center"
+                                android:textColor="@color/blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

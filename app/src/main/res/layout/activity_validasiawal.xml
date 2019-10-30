@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ValidasiAwalActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_validasi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:onClick="buttonValidasi1"
+                    android:text="@string/btn_validasi1"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick" />
+
+                <Button
+                    android:id="@+id/btn_validasi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:onClick="buttonValidasi2"
+                    android:text="@string/btn_validasi2"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick" />
+
+                <Button
+                    android:id="@+id/btn_validasi3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:onClick="buttonValidasi3"
+                    android:text="@string/btn_validasi3"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick" />
+
+                <Button
+                    android:id="@+id/btn_validasi4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="235dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="start"
+                    android:lineHeight="24dp"
+                    android:padding="5dp"
+                    android:onClick="buttonValidasi4"
+                    android:text="@string/btn_validasi4"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick" />
+
+                <Button
+                    android:id="@+id/btn_validasi5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="305dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="start"
+                    android:lineHeight="24dp"
+                    android:padding="5dp"
+                    android:onClick="buttonValidasi5"
+                    android:text="@string/btn_validasi5"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    tools:ignore="OnClick"
+                    tools:targetApi="p" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
